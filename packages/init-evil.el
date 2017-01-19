@@ -37,7 +37,11 @@
 	  )))
 
     (use-package evil-escape
+      :ensure t
       :init (evil-escape-mode))
+
+    (use-package evil-magit
+      :ensure t)
 
     ;; boot evil by default
     (evil-mode 1))
